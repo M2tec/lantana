@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo su - postgres
+psql
+CREATE USER sunflower SUPERUSER CREATEDB LOGIN PASSWORD '##Insert password##';

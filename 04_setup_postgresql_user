@@ -2,3 +2,4 @@
 sudo su - postgres
 psql
 CREATE USER sunflower SUPERUSER CREATEDB LOGIN PASSWORD '##Insert password##';
+CREATE DATABASE ledger_sync;
